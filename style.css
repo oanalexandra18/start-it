@@ -1,0 +1,238 @@
+/* ELEMENTE GLOBALE */
+  body {
+    background-color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+/* MENIU NAVBAR */
+  .navbar {
+    padding: 30px;
+  }
+
+  .bg-dark {
+    background-color: #1e1e1e !important;
+  }
+
+  .navbar li {
+    margin: 0 0 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .navbar li a {
+    border-bottom: 1px solid #1E1E1E;
+  }
+
+  .navbar li a:hover {
+      text-decoration: none;
+      border-bottom: 1px solid #fe5512;
+      color: #fe5512;
+  }
+
+  .nav-link {
+      color: #ffffff;
+  }
+
+  .logo {
+      height: 40px;
+  }
+
+/* ID-URI SECTIUNI */
+  #despre-noi {
+    height: 110px;
+  }
+
+  #servicii {
+    height: 110px;
+  }
+
+  #beneficii {
+    height: 110px;
+  }
+
+  #portofoliu {
+    height: 110px;
+  }
+
+  #testimoniale {
+    height: 110px;
+  }
+
+/* SERVICII */
+.imagine-col-100 img {
+  width: 100%;
+}
+
+/* SERVICII ACORDEON */
+  .accordion-button {
+    text-transform: uppercase;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #fe55122e;
+    font-weight: 700;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #fe5512;
+  }
+
+
+/* BENEFICII */
+  .coloana-beneficii {
+    margin-bottom: 25px;
+  }
+    
+  .coloana-beneficii img {
+    width: 90%;
+  }
+
+  .card-coloana-stanga {
+    background-color: #087E8B;
+  }
+
+  .card.card-coloana-dreapta {
+    background-color: #fe5512;
+  }
+
+  .card {
+    color: #ffffff;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    --bs-card-border-width: 0;
+    --bs-card-border-radius: 0;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card-img-top {
+    border-radius: 0;
+  }
+
+  .card p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .card h3 {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+/* PORTOFOLIU */
+  .col-lg-4.imagine-col-100 {
+    margin-bottom: 25px;
+  }
+
+/* TESTIMONIALE */
+  .card.card-testimoniale {
+    background-color: #087E8B;
+    margin-bottom: 25px;
+  }
+
+  .card.card-testimoniale img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50%;
+  }
+
+  .badge.rounded-pill.text-bg-primary {
+    text-align: center;
+    background-color: #1E1E1E !important;
+    text-transform: uppercase;
+  }
+
+  .badge {
+    display: inline;
+    --bs-badge-padding-x: 10px;
+    --bs-badge-padding-y: 5px;
+    --bs-badge-font-size: 0.80em;
+  }
+
+/* FOOTER */
+  .container-fluid.footer {
+    background-color: #1E1E1E;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .container-fluid.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-bottom: 25px;
+  }
+
+  .container-fluid.footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .container-fluid.footer a:hover {
+    color: #fe5512;
+  }
+
+  .copyrights {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .row.coloane-footer {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+/* FOOTER SOCIAL MEDIA ICONS */
+  .fa {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 20%;
+    padding: 10px;
+    margin-right: 5px;
+  }
+
+  .fa-facebook:hover {
+    color: #ffffff !important;
+  }
+
+  .fa-instagram:hover {
+    color: #ffffff !important;
+  }
+
+  .fa-twitter:hover {
+    color: #ffffff !important;
+  }
+
+  .fa-linkedin:hover {
+    color: #ffffff !important;
+  }
